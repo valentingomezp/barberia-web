@@ -24,3 +24,28 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* --- ESTILOS PERSONALIZADOS PARA LA BARRA DE DESPLAZAMIENTO --- */
+
+/* Ancho y alto de la barra */
+::-webkit-scrollbar {
+  height: 6px; /* Para el scroll horizontal (el de los días) */
+  width: 8px;  /* Para el scroll vertical de la página */
+}
+
+/* El fondo por donde se desliza la barra (Fondo oscuro) */
+::-webkit-scrollbar-track {
+  background: #121212;
+  border-radius: 10px;
+}
+
+/* La barrita en sí (Gris oscuro) */
+::-webkit-scrollbar-thumb {
+  background: #27272a; 
+  border-radius: 10px;
+}
+
+/* La barrita cuando pasas el mouse por encima (Dorado) */
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059; 
+}
